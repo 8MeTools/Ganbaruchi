@@ -1,5 +1,14 @@
 # Wiimms SZS Tools 基本コマンド集
 最終更新日: 2025年9月7日
+
+## 目次
+- [注意](#注意)
+- [wszst編](#wszst編)
+- [wimgt編](#wimgt編)
+- [wbmgt編](#wbmgt編)
+- [複数のファイルに対して一括で同じ操作を行う](#複数のファイルに対して一括で同じ操作を行う)
+- [特定のディレクトリ(フォルダ)で操作を行う](#特定のディレクトリフォルダで操作を行う)
+
 ## 注意
 - 以下のコマンドに含まれる`hogehoge`は任意の名前に変更してください。
 - CT作成に関連した操作については[Caronさんの記事](https://wiki.tockdom.com/wiki/User:Caron/CTTutorial_Japanese)をご覧ください。
@@ -15,7 +24,6 @@ wszst x hogehoge.szs
 ```
 wszst c hogehoge.d
 ```
-上のコマンドでは圧縮するたびにファイルを削除しないといけません。\
 以下のように`-o`をつけることで、上書きでアセットファイルを圧縮できます。
 ```
 wszst c hogehoge.d -o
